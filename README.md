@@ -34,3 +34,69 @@ Osztályok módosítása
 Dolgozat létrehozása
 
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/use-case.gif">
+
+2. Tervezés
+
+2.1. Architektúra terv
+
+2.1.1. Komponensdiagram
+
+----------------------------------------------------------------
+
+2.1.2. Oldaltérkép:
+
+Publikus:
+Főoldal
+Bejelentkezés
+
+Diák:
+Jelszó modosítás
+Eredmények
+Dolgozat írás
+
+Tanár
+Jelszó modosítás
+Osztályok módosítása
+  Osztály létrehozása
+  Osztály törlése
+  Osztály módosítása
+Dolgozat létrehozása
+
+Admin
+Felhasznaló felvétele
+
+2.2. Felhasználói-felület modell
+
+2.2.1. Oldalvázlatok:
+
+Főoldal
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/Foldal.jpg">
+
+Bejelentkezés
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/bejelentkezes.jpg">
+
+Eredmények
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/Eredmenyek.jpg">
+
+Dolgozat írás
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/Dolgozat_iras.jpg">
+
+Osztályok módosítása
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/Osztalyok_modositasa.jpg">
+
+Dolgozat létrehozása
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/Dolgozat_letrehozasa.jpg">
+
+Jelszó modosítás
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/Jelszo_modositas.jpg">
+
+Felhasznaló felvétele
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/Felhasznalo_felvetele.jpg">
+
+2.2.3. Osztálymodell
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/database.png">
+
+2.2.3. Adatbázisterv
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/database.png">
+
+
