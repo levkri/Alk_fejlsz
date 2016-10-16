@@ -1,8 +1,6 @@
 <h1>Dokumentáció</h1>
-<h3>Készítette: Lévai Krisztián<h3>
---
 <h1>Online szódolgozat</h1>
---
+<h3>Készítette: Lévai Krisztián<h3>
 <h1>1. Követelményanalízis</h1>
 <h2>1.1. Célkitűzés, projekt indító dokumentum</h2>
 <p>
