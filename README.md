@@ -33,4 +33,4 @@ Tanár:
 Osztályok módosítása
 Dolgozat létrehozása
 
-<img url="https://github.com/levkri/Alk_fejlsz/blob/master/use-case.gif">
+<img src="https://github.com/levkri/Alk_fejlsz/blob/master/use-case.gif">
