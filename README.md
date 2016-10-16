@@ -4,34 +4,42 @@
 --
 <h1>1. Követelményanalízis</h1>
 <h2>1.1. Célkitűzés, projekt indító dokumentum</h2>
-
+<p>
 A program célja, hogy az álltalános iskolákban vagy középiskolákban a papír alapú szódolgozatot részben vagy egész részben kiváltsa. Így gyorsabb és kényelmesebb lenne az ellenőrzése. Nem lenne probléma a diákok "szépírása".
-
-<strong>Funkcionális követelmények:</strong>
-Bejelentkezés
+</p>
+<strong>Funkcionális követelmények:</strong><br>
+<p>Bejelentkezés
 A regisztrációt a rendszergazda végezné
 A bejelentkezés után a diák és a tanár a jogkörének megfelelő elemeket látná csak az oldalból
 diák: szódolgozat kitöltése, pontszámok megtekintése
 tanár: szavak megadása, dolgozat létrehozása, összesítések megtekintése
-
-<strong>Nem funkcionális követelmények:</strong>
+</p>
+<p>
+<strong>Nem funkcionális követelmények:</strong><br>
 Könnyű áttekinthetőség: Csak a legszükségesebb menüpontok legyenek láthatóak, azok könnyen észrevehetőek
 Használhatóság: Ésszerű elrendezés, könnyen kezelhetőség
 Megbízhatóság:  Jelszóval védett funkciók, és a jelszavak védelme a háttérben
 Karbantarthatóság: Könnyen lehessen bővíteni, a különböző típusú fájlok külön csoportosítva, ésszerűen legyenek felbontva, a könnyebb fejleszthetőség miatt
+</p>
 
 <h2>1.2. Használatieset-modell, funkcionális követelmények</h2>
 Vendég: Csak a publikus oldalakat éri el
-  Főoldal
-  Bejelentkezés
+<ul>  
+  <li>Főoldal</li>
+  <li>Bejelentkezés<li>
+</ul>
 
 <strong>Diák:</strong>
-  Eredmények
-  Dolgozat megírása
+<ul>  
+  <li>Eredmények</li>
+  <li>Dolgozat megírása</li>
+</ul>
 
 <strong>Tanár:</strong>
-  Osztályok módosítása
-  Dolgozat létrehozása
+<ul>
+  <li>Osztályok módosítása</li>
+  <li>Dolgozat létrehozása</li>
+</ul>
 
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/use-case.gif">
 
@@ -46,21 +54,27 @@ Vendég: Csak a publikus oldalakat éri el
 <h2>2.1.2. Oldaltérkép:</h2>
 
 <strong>Publikus</strong>
-Főoldal
-Bejelentkezés
+<ul>
+<li>Főoldal</li>
+<li>Bejelentkezés</li>
+</ul>
 
 <strong>Diák</strong>
-    Jelszó modosítás
-    Eredmények
-    Dolgozat írás
+<ul>
+    <li>Jelszó modosítás</li>
+    <li>Eredmények</li>
+    <li>Dolgozat írás</li>
+</ul>
 
 <strong>Tanár</strong>
-    Jelszó modosítás
-    Osztályok módosítása
-      Osztály létrehozása
-      Osztály törlése
-    Osztály módosítása
-    Dolgozat létrehozása
+<ul>
+    <li>Jelszó modosítás</li>
+    <li>Osztályok módosítása</li>
+      <li>Osztály létrehozása</li>
+      <li>Osztály törlése</li>
+    <li>Osztály módosítása</li>
+    <li>Dolgozat létrehozása</li>
+</ul>
 
 <strong>Admin</strong>
     Felhasznaló felvétele
