@@ -1,102 +1,102 @@
-Dokumentáció
+<h1>Dokumentáció</h1>
 --
-Online szódolgozat
+<h1>Online szódolgozat</h1>
 --
-1. Követelményanalízis
-1.1. Célkitűzés, projekt indító dokumentum
+<h1>1. Követelményanalízis</h1>
+<h2>1.1. Célkitűzés, projekt indító dokumentum</h2>
 
 A program célja, hogy az álltalános iskolákban vagy középiskolákban a papír alapú szódolgozatot részben vagy egész részben kiváltsa. Így gyorsabb és kényelmesebb lenne az ellenőrzése. Nem lenne probléma a diákok "szépírása".
 
-Funkcionális követelmények:
+<strong>Funkcionális követelmények:</strong>
 Bejelentkezés
 A regisztrációt a rendszergazda végezné
 A bejelentkezés után a diák és a tanár a jogkörének megfelelő elemeket látná csak az oldalból
 diák: szódolgozat kitöltése, pontszámok megtekintése
 tanár: szavak megadása, dolgozat létrehozása, összesítések megtekintése
 
-Nem funkcionális követelmények:
+<strong>Nem funkcionális követelmények:</strong>
 Könnyű áttekinthetőség: Csak a legszükségesebb menüpontok legyenek láthatóak, azok könnyen észrevehetőek
 Használhatóság: Ésszerű elrendezés, könnyen kezelhetőség
 Megbízhatóság:  Jelszóval védett funkciók, és a jelszavak védelme a háttérben
 Karbantarthatóság: Könnyen lehessen bővíteni, a különböző típusú fájlok külön csoportosítva, ésszerűen legyenek felbontva, a könnyebb fejleszthetőség miatt
 
-1.2. Használatieset-modell, funkcionális követelmények
+<h2>1.2. Használatieset-modell, funkcionális követelmények</h2>
 Vendég: Csak a publikus oldalakat éri el
-Főoldal
-Bejelentkezés
+  Főoldal
+  Bejelentkezés
 
-Diák:
-Eredmények
-Dolgozat megírása
+<strong>Diák:</strong>
+  Eredmények
+  Dolgozat megírása
 
-Tanár:
-Osztályok módosítása
-Dolgozat létrehozása
+<strong>Tanár:</strong>
+  Osztályok módosítása
+  Dolgozat létrehozása
 
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/use-case.gif">
 
-2. Tervezés
+<h1>2. Tervezés</h1>
 
-2.1. Architektúra terv
+<h2>2.1. Architektúra terv</h2>
 
-2.1.1. Komponensdiagram
+<h2>2.1.1. Komponensdiagram</h2>
 
 ----------------------------------------------------------------
 
-2.1.2. Oldaltérkép:
+<h2>2.1.2. Oldaltérkép:</h2>
 
-Publikus:
+<strong>Publikus</strong>
 Főoldal
 Bejelentkezés
 
-Diák:
-Jelszó modosítás
-Eredmények
-Dolgozat írás
+<strong>Diák</strong>
+    Jelszó modosítás
+    Eredmények
+    Dolgozat írás
 
-Tanár
-Jelszó modosítás
-Osztályok módosítása
-  Osztály létrehozása
-  Osztály törlése
-  Osztály módosítása
-Dolgozat létrehozása
+<strong>Tanár</strong>
+    Jelszó modosítás
+    Osztályok módosítása
+      Osztály létrehozása
+      Osztály törlése
+    Osztály módosítása
+    Dolgozat létrehozása
 
-Admin
-Felhasznaló felvétele
+<strong>Admin</strong>
+    Felhasznaló felvétele
 
-2.2. Felhasználói-felület modell
+<h2>2.2. Felhasználói-felület modell</h2>
 
-2.2.1. Oldalvázlatok:
+<h2>2.2.1. Oldalvázlatok:</h2>
 
-Főoldal
+<strong>Főoldal</strong>
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/Foldal.jpg">
 
-Bejelentkezés
+<strong>Bejelentkezés</strong>
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/bejelentkezes.jpg">
 
-Eredmények
+<strong>Eredmények</strong>
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/Eredmenyek.jpg">
 
-Dolgozat írás
+<strong>Dolgozat írás</strong>
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/Dolgozat_iras.jpg">
 
-Osztályok módosítása
+<strong>Osztályok módosítása</strong>
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/Osztalyok_modositasa.jpg">
 
-Dolgozat létrehozása
+<strong>Dolgozat létrehozása</strong>
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/Dolgozat_letrehozasa.jpg">
 
-Jelszó modosítás
+<strong>Jelszó modosítás</strong>
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/Jelszo_modositas.jpg">
 
-Felhasznaló felvétele
+<strong>Felhasznaló felvétele</strong>
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/Felhasznalo_felvetele.jpg">
 
-2.2.3. Osztálymodell
+<h2>2.2.3. Osztálymodell</h2>
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/database.png">
 
-2.2.3. Adatbázisterv
+<h2>2.2.3. Adatbázisterv</h2>
 <img src="https://github.com/levkri/Alk_fejlsz/blob/master/database.png">
 
 
