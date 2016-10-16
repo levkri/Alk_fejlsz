@@ -33,3 +33,4 @@ Tanár:
 Osztályok módosítása
 Dolgozat létrehozása
 
+https://github.com/levkri/Alk_fejlsz/blob/master/use-case.gif
